@@ -95,6 +95,7 @@ li {
 
 .unblocked {
     cursor: pointer;
+    mix-blend-mode: luminosity;
 }
 
 .expired img {
