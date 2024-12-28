@@ -1,0 +1,39 @@
+@media(max-width: 800px) {
+
+    body{
+        padding-top: 45px;
+    }
+
+    .intro {
+        height: 90dvh;
+        margin: 0px 0 35px 0;
+    }
+
+    .intro-title {
+        font-size: 40px;
+    }
+
+    .intro img {
+        width: auto;
+    }
+
+    .content-section{
+        padding: 0 30px;
+    }
+
+    .return-btn{
+        height: auto;
+        width: auto;
+        padding: 10px 10px;
+        font-size: 1em;
+    }
+
+    .content,
+    .content-list{
+        font-size: 25px;
+    }
+
+    .content-subtitle{
+        font-size: 30px;
+    }
+}

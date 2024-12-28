@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto serif;
+}
+
+body {
+    background-color: #E3CDBF;
+    -webkit-box-shadow: inset 0px 0px 193.7px 93px rgba(146, 130, 100, 0.49);
+    -moz-box-shadow: inset 0px 0px 193.7px 93px rgba(146, 130, 100, 0.49);
+    box-shadow: inset 0px 0px 193.7px 93px rgba(146, 130, 100, 0.49);
+    background-image: url(../assets/img/texture.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+    background-blend-mode: overlay;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    width: 85%;
+    height: 2px;
+    background-color: #40220E;
+    border: none;
+    margin: 0 0 40px 0;
+}
+
+#bottom-hr{
+    margin: 50px 0 80px 0;
+    height: 3px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    margin: 0 0 170px 0;
+}
+
+.intro img {
+    width: 448px;
+    height: 100px;
+    mix-blend-mode: hard-light;
+}
+
+#bottom-img {
+    rotate: 180deg;
+}
+
+.intro-title {
+    font-family: cinzel decorative;
+    color: #272421;
+    font-size: 68px;
+    mix-blend-mode: hard-light;
+    text-align: center;
+    width: 80%;
+    margin: 30px 0;
+}
+
+.content-section {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.content-subtitle {
+    color: #1C3556;
+    font-size: 48px;
+    margin: 70px 0 35px 0;
+    mix-blend-mode: hard-light;
+}
+
+.content,
+.content-list {
+    font-size: 36px;
+    color: #23263D;
+    margin: 0 0 30px 0;
+    text-indent: 20px;
+    mix-blend-mode: hard-light;
+}
+
+.content-list span {
+    margin: 0 0 40px 0;
+    display: block;
+    text-indent: 0;
+    font-size: 28px;
+}
+
+.content-list li {
+    margin: 0 0 10px 0;
+    color: #1c562d;
+}
+
+.return-btn {
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0.85);
+    opacity: 0.79;
+    color: rgba(255, 255, 255, 0.75) ;
+    width: 545px;
+    border-radius: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 0 10px;
+    display: flex;
+    text-decoration: none;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.return-btn:hover {
+    opacity: 1;
+    color: #fff;
+}

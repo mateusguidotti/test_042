@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test_042</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="assets/indexResponsivity.css">
+        <link rel="stylesheet" href="assets/popup_styles.css">
+        <script src="index.js" type="text/javascript" defer></script>
+
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rum+Raisin&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+                rel="stylesheet">
+
+</head>
+
+<body>
+        <section class="intro">
+                <img src="assets//img/adorno.png" alt="">
+                <h1 class="intro-title">
+                        Leia-me quando for a hora certa
+                </h1>
+                <img id="bottom-img" src="assets/img/adorno.png" alt="">
+        </section>
+
+        <h2 class="section-title">PARA DATAS ESPECIAIS</h2>
+
+        <ul class="special-section">
+                <li>
+                        <a class="btn special blocked" data-release-date="25/12/2024" href="/pages/quando_for_natal.html">
+                                <img class="specialImage" src="assets/img/specialLogo.png" alt="">
+                        </a>
+                        <span class="description">QUANDO FOR NATAL</span>
+                </li>
+
+                <li>
+                        <a class="btn special blocked" data-release-date="28/12/2024" href="/pages/quando_for_reveilLon.html">
+                                <img src="" alt="">
+                        </a>
+                        <span class="description">QUANDO FOR REVEILLON</span>
+                </li>
+
+                <li>
+                        <a class="btn special blocked" data-release-date="29/12/2024" href="/pages/quando_for_pascoa.html">
+                                <img src="assets/img/specialLogo.png" alt="">
+                        </a>
+                        <span class="description">QUANDO FOR PÁSCOA</span>
+                </li>
+
+                <li>
+                        <a class="btn special blocked" data-release-date="30/12/2024" href="/pages/quando_for_festa_junina.html">
+                                <img src="assets/img/specialLogo.png" alt="">
+                        </a>
+                        <span class="description">QUANDO FOR FESTA JUNINA</span>
+                </li>
+        </ul>
+
+        <footer>
+                <br><br><br><br><br>
+        </footer>
+
+        <!-- POP-UP DE EVENTO BLOQUEADO -->
+
+        <div id="popup" class="hidden">
+                <div class="popup-container">
+                        <div class="popup-content">
+                                <p class="popup-ad"></p>
+                                <p class="popup-message"></p>
+                        </div>
+                        <button id="closePopup">X</button>
+                </div>
+        </div>
+
+</body>
+
+</html>
